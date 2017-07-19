@@ -481,9 +481,9 @@ var game = {//游戏结束---通关
 music_btnoff.addEventListener("touchstart",iFn.on);
 music_btnon.addEventListener("touchstart",iFn.off);
 //开始游戏按钮
-document.onready = function(){
+// document.onready = function(){
 	i_start.addEventListener("touchend",iFn.start);
-}
+// }
 function fxFn(){//分享界面
 	setTimeout(function(){
 		document.addEventListener("touchstart",function newdivFn(){
